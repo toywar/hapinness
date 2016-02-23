@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		D470292F1C7D007F00116769 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D470292E1C7D007F00116769 /* AppDelegate.swift */; };
-		D47029311C7D007F00116769 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47029301C7D007F00116769 /* ViewController.swift */; };
 		D47029341C7D007F00116769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47029321C7D007F00116769 /* Main.storyboard */; };
 		D47029361C7D007F00116769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D47029351C7D007F00116769 /* Assets.xcassets */; };
 		D47029391C7D007F00116769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47029371C7D007F00116769 /* LaunchScreen.storyboard */; };
+		D47029411C7D02EC00116769 /* HappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47029401C7D02EC00116769 /* HappinessViewController.swift */; };
+		D47029431C7D044C00116769 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47029421C7D044C00116769 /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D470292B1C7D007F00116769 /* Happiness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Happiness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D470292E1C7D007F00116769 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D47029301C7D007F00116769 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D47029331C7D007F00116769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D47029351C7D007F00116769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D47029381C7D007F00116769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D470293A1C7D007F00116769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D47029401C7D02EC00116769 /* HappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappinessViewController.swift; sourceTree = "<group>"; };
+		D47029421C7D044C00116769 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +56,10 @@
 		D470292D1C7D007F00116769 /* Happiness */ = {
 			isa = PBXGroup;
 			children = (
+				D47029401C7D02EC00116769 /* HappinessViewController.swift */,
 				D470292E1C7D007F00116769 /* AppDelegate.swift */,
-				D47029301C7D007F00116769 /* ViewController.swift */,
 				D47029321C7D007F00116769 /* Main.storyboard */,
+				D47029421C7D044C00116769 /* FaceView.swift */,
 				D47029351C7D007F00116769 /* Assets.xcassets */,
 				D47029371C7D007F00116769 /* LaunchScreen.storyboard */,
 				D470293A1C7D007F00116769 /* Info.plist */,
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D47029311C7D007F00116769 /* ViewController.swift in Sources */,
+				D47029411C7D02EC00116769 /* HappinessViewController.swift in Sources */,
 				D470292F1C7D007F00116769 /* AppDelegate.swift in Sources */,
+				D47029431C7D044C00116769 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
