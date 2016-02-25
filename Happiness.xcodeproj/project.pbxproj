@@ -37,6 +37,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D46E6C411C7F23FF00755424 /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supported Files";
+			sourceTree = "<group>";
+		};
 		D47029221C7D007F00116769 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +63,7 @@
 		D470292D1C7D007F00116769 /* Happiness */ = {
 			isa = PBXGroup;
 			children = (
+				D46E6C411C7F23FF00755424 /* Supported Files */,
 				D47029401C7D02EC00116769 /* HappinessViewController.swift */,
 				D470292E1C7D007F00116769 /* AppDelegate.swift */,
 				D47029321C7D007F00116769 /* Main.storyboard */,
@@ -290,6 +298,7 @@
 				D470293F1C7D007F00116769 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
